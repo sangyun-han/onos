@@ -32,7 +32,7 @@ import java.util.List;
 /**
  * Sets role of the controller node for the given infrastructure device.
  */
-@Command(scope = "onos", name = "device-setcontrollers",
+@Command(scope = "onos", name = "device-set-controllers",
         description = "sets the list of controllers for the given infrastructure device")
 public class DeviceSetControllersCommand extends AbstractShellCommand {
 

@@ -35,7 +35,7 @@ import com.google.common.collect.Lists;
 /**
  * Installs bulk point-to-point connectivity intents between random ingress/egress devices.
  */
-@Command(scope = "onos", name = "push-random-intents",
+@Command(scope = "onos", name = "intent-push-random",
          description = "Installs random intents to test throughput")
 public class RandomIntentCommand extends AbstractShellCommand {
 

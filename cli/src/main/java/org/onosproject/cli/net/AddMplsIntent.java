@@ -36,7 +36,7 @@ import java.util.Optional;
  * constraint {@link org.onosproject.net.intent.constraint.EncapsulationConstraint}
  */
 @Deprecated
-@Command(scope = "onos", name = "add-mpls-intent", description = "Installs mpls connectivity intent")
+@Command(scope = "onos", name = "intent-add-mpls", description = "Installs mpls connectivity intent")
 public class AddMplsIntent extends ConnectivityIntentCommand {
 
     @Argument(index = 0, name = "ingressDevice",

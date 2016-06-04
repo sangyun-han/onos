@@ -41,7 +41,7 @@ import static org.onosproject.net.optical.device.OpticalDeviceServiceView.optica
 /**
  * Installs optical connectivity or circuit intents, depending on given port types.
  */
-@Command(scope = "onos", name = "add-optical-intent",
+@Command(scope = "onos", name = "intent-add-optical",
          description = "Installs optical connectivity intent")
 public class AddOpticalIntentCommand extends ConnectivityIntentCommand {
 

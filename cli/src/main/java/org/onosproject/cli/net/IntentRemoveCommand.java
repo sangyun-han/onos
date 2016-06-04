@@ -41,7 +41,7 @@ import static org.onosproject.net.intent.IntentState.WITHDRAWN;
 /**
  * Removes an intent.
  */
-@Command(scope = "onos", name = "remove-intent",
+@Command(scope = "onos", name = "intent-remove",
         description = "Removes the specified intent")
 public class IntentRemoveCommand extends AbstractShellCommand {
 

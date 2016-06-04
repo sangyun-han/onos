@@ -25,7 +25,7 @@ import static org.onosproject.net.intent.IntentState.WITHDRAWN;
 /**
  * Purges all WITHDRAWN intents.
  */
-@Command(scope = "onos", name = "purge-intents",
+@Command(scope = "onos", name = "intent-purge",
          description = "Purges all WITHDRAWN intents")
 public class IntentPurgeCommand extends AbstractShellCommand {
     @Override

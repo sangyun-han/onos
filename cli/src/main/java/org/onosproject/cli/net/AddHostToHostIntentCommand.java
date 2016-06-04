@@ -29,7 +29,7 @@ import org.onosproject.net.intent.IntentService;
 /**
  * Installs host-to-host connectivity intent.
  */
-@Command(scope = "onos", name = "add-host-intent",
+@Command(scope = "onos", name = "intent-add-host",
          description = "Installs host-to-host connectivity intent")
 public class AddHostToHostIntentCommand extends ConnectivityIntentCommand {
 

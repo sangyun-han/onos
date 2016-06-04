@@ -49,7 +49,7 @@ import static org.onosproject.net.PortNumber.portNumber;
 /**
  * Installs point-to-point connectivity intents.
  */
-@Command(scope = "onos", name = "cycle-intents",
+@Command(scope = "onos", name = "intent-cycle",
          description = "Installs random intents to test throughput")
 public class IntentCycleCommand extends AbstractShellCommand
         implements IntentListener {

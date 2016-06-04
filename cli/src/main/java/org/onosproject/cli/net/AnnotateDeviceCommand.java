@@ -35,7 +35,7 @@ import org.onosproject.net.provider.ProviderId;
 /**
  * Annotates network device model.
  */
-@Command(scope = "onos", name = "annotate-device",
+@Command(scope = "onos", name = "device-annotate",
         description = "Annotates network model entities")
 public class AnnotateDeviceCommand extends AbstractShellCommand {
 

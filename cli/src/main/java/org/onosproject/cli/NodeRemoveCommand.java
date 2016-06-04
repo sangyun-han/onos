@@ -23,7 +23,7 @@ import org.onosproject.cluster.NodeId;
 /**
  * Removes a controller cluster node.
  */
-@Command(scope = "onos", name = "remove-node",
+@Command(scope = "onos", name = "node-remove",
          description = "Removes a new controller cluster node")
 public class NodeRemoveCommand extends AbstractShellCommand {
 

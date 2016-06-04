@@ -32,7 +32,7 @@ import java.util.Collections;
 /**
  * Add a meter.
  */
-@Command(scope = "onos", name = "add-meter",
+@Command(scope = "onos", name = "device-add-meter",
         description = "Adds a meter to a device (currently for testing)")
 public class AddMeter extends AbstractShellCommand {
 

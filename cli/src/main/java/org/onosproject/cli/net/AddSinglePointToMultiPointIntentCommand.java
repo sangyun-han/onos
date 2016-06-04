@@ -32,7 +32,7 @@ import java.util.Set;
 /**
  * Installs connectivity intent between a single ingress device and multiple egress devices.
  */
-@Command(scope = "onos", name = "add-single-to-multi-intent",
+@Command(scope = "onos", name = "intent-add-single-to-multi",
         description = "Installs connectivity intent between a single ingress device and multiple egress devices")
 public class AddSinglePointToMultiPointIntentCommand extends ConnectivityIntentCommand {
     @Argument(index = 0, name = "ingressDevice egressDevices",

@@ -28,7 +28,7 @@ import java.util.NoSuchElementException;
 /**
  * Installs intent domain tunnel primitive.
  */
-@Command(scope = "onos", name = "add-domain-tunnel",
+@Command(scope = "onos", name = "intent-domain-add-tunnel",
          description = "Installs intent domain tunnel primitive")
 public class AddTunnelCommand extends AbstractShellCommand {
 

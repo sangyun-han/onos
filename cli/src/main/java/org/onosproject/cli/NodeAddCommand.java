@@ -25,7 +25,7 @@ import org.onlab.packet.IpAddress;
 /**
  * Adds a new controller cluster node.
  */
-@Command(scope = "onos", name = "add-node",
+@Command(scope = "onos", name = "node-add",
          description = "Adds a new controller cluster node")
 public class NodeAddCommand extends AbstractShellCommand {
 

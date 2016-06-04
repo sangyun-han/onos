@@ -30,7 +30,7 @@ import java.util.List;
 /**
  * Installs point-to-point connectivity intents.
  */
-@Command(scope = "onos", name = "add-point-intent",
+@Command(scope = "onos", name = "intent-add-point-to-point",
          description = "Installs point-to-point connectivity intent")
 public class AddPointToPointIntentCommand extends ConnectivityIntentCommand {
 

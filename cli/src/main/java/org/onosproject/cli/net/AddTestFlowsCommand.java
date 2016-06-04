@@ -49,7 +49,7 @@ import com.google.common.collect.Lists;
 /**
  * Installs bulk flows.
  */
-@Command(scope = "onos", name = "add-test-flows",
+@Command(scope = "onos", name = "flow-add-test-flows",
          description = "Installs a number of test flow rules - for testing only")
 public class AddTestFlowsCommand extends AbstractShellCommand {
 
