@@ -16,6 +16,7 @@
 
 package org.onosproject.incubator.net.virtual.provider;
 
+import org.onosproject.incubator.net.virtual.NetworkId;
 import org.onosproject.net.ConnectPoint;
 import org.onosproject.net.DeviceId;
 import org.onosproject.net.MastershipRole;
@@ -33,7 +34,7 @@ public interface VirtualDeviceProvider extends VirtualProvider {
      * @param deviceId  device identifier
      * @param newRole newly determined mastership role
      */
-    void roleChanged(DeviceId deviceId, MastershipRole newRole);
+    void roleChanged(NetworkId networkId, DeviceId deviceId, MastershipRole newRole);
 
     /**
      * Indicates whether or not the specified connect points on the underlying
@@ -43,7 +44,7 @@ public interface VirtualDeviceProvider extends VirtualProvider {
      * @param dst destination connection point
      * @return true if the destination is reachable from the source
      */
-    boolean isTraversable(ConnectPoint src, ConnectPoint dst);
+    boolean isTraversable(NetworkId networkId, ConnectPoint src, ConnectPoint dst);
 
     /**
      * Indicates whether or not the all physical devices mapped by the given
@@ -52,7 +53,7 @@ public interface VirtualDeviceProvider extends VirtualProvider {
      * @param deviceId  device identifier
      * @return true if the all physical devices are reachable, false otherwise
      */
-    boolean isReachable(DeviceId deviceId);
+    boolean isReachable(NetworkId networkId, DeviceId deviceId);
 
     /**
      * Administratively enables or disables a port.
@@ -61,6 +62,6 @@ public interface VirtualDeviceProvider extends VirtualProvider {
      * @param portNumber port number
      * @param enable true if port is to be enabled, false to disable
      */
-    void changePortState(DeviceId deviceId, PortNumber portNumber,
-                         boolean enable);
+    void changePortState(NetworkId networkId, DeviceId deviceId,
+                         PortNumber portNumber, boolean enable);
 }
